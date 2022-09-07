@@ -1,0 +1,458 @@
+CSS rules to specify families
+
+font-family: 'Clicker Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+
+
+<body>
+	<div class="container">
+		<div class="heading">Registration</div>
+			<form action="#">
+				<div class="card-details">
+					<div class="card-box">
+						<span class="details">Full Name</span>
+						<input type="text" name="" placeholder="Enter Your Full Name">
+					</div>
+					
+					<div class="card-box">
+						<span class="details">Username</span>
+						<input type="text" name="" placeholder="Enter Your Username">
+					</div>
+
+					<div class="card-box">
+						<span class="details">Email</span>
+						<input type="email" name="" placeholder="Enter Your Email">
+					</div>
+
+					<div class="card-box">
+						<span class="details">Phone No</span>
+						<input type="phone" name="" placeholder="Enter Your Phone Number">
+					</div>
+
+					<div class="card-box">
+						<span class="details">Password</span>
+						<input type="password" name="" placeholder="Enter Your Password">
+						
+					</div>
+
+					<div class="card-box">
+						<span class="details">Confirm Password</span>
+						<input type="pass" name="" placeholder="Confirm Password">
+					</div>
+				</div>
+				
+				<div class="circal-form">
+					<span class="circal-title">Gender</span>
+					<div class="category">
+						<input type="radio" name="Gender">Male
+						<input type="radio" name="Gender">Female
+						<input type="radio" name="Gender">Other
+					</div>
+				</div>
+				<div class="circal-form">
+					<form action="/action_page.php">
+						<span>Image</span>
+						<div class="circal-images">
+							<input type="file" id="myFile" name="filename">
+  						</div>
+  					</form>
+				</div>
+
+			
+
+				<div class="button">
+					<input type="submit" name="" value="Register">
+				</div>
+
+
+			</form>
+		</div>
+
+    margin-left: 41px;
+    margin-left: 74px;
+    margin-left: 101px;
+margin-left: 75px;
+margin-left: 15px;
+
+CSS:::::::::::
+body
+{
+	color: #fff;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg,#1A1A1D,#4E4E50,#6F2232,#950740,#C3073F);
+	padding: 10px;
+
+}
+.container
+{
+	max-width: 700px;
+	width: 100%;
+	padding: 25px 30px;
+	border-radius: 25px;
+	background: linear-gradient(150deg,#951c1c,#05073a);
+}
+.container .heading
+{
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+.container .heading::before
+{
+	content: '';
+	position: absolute;
+	height: 3px;
+	left:0;
+	bottom: 0;
+	width:100%;
+	background:linear-gradient(135deg,#da2121,#060956);
+}
+.container form .card-details
+{
+	margin-top: 25px;
+	
+	
+
+}
+form .card-details .card-box
+{
+	width: calc(100% / 2-20px);
+	
+	margin-bottom: 15px;
+
+}
+.card-details .card-box .details
+{
+	
+	
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.card-details .card-box input
+{
+	height:30px;
+	width: 60%;
+	outline: none;
+	border-radius: 5px;
+	border:1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+
+
+
+}
+.card-details .card-box input:focus,
+.card-details .card-box input:valid
+{
+	border-color: #9b59b6;
+}
+form .circal-form .circal-title
+{
+	font-size: 20px;
+	font-weight: 500;
+	
+}
+form .circal-form .category
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.button
+{
+	text-align: center;
+}
+.button input
+{
+	padding: 10px 10px;
+	margin-top: 10px;
+	height: 100%;
+	outline: none;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: #950740;
+}
+.button input:hover
+{
+	background:linear-gradient(135deg,#dc0606ca,#05073a);
+}
+.circal-form .Image
+{
+	font-size: 20px;
+	font-weight: 500;
+	
+}
+.circal-form .circal-images
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.circal-form .circal-images .input
+{
+	border:1px solid#fff;
+}
+
+
+
+???????????????????????????????????????????????????????????????????????????
+<div class="container">
+    <div class="heading">Registration</div>
+      <form action="#">
+        <div class="card-details">
+          <div class="card-box">
+            <span class="details">Full Name</span>
+            <input style="margin-left:74px;"type="text" name="" placeholder="Enter Your Full Name">
+          </div>
+          
+          <div class="card-box">
+            <span class="details">Username</span>
+            <input  style="margin-left:74px;"type="text" name="" placeholder="Enter Your Username">
+          </div>
+
+          <div class="card-box">
+            <span class="details">Email</span>
+            <input style="margin-left:101px;" type="email" name="" placeholder="Enter Your Email">
+          </div>
+
+          <div class="card-box">
+            <span class="details">Phone No</span>
+            <input style="margin-left:75px"type="phone" name="" placeholder="Enter Your Phone Number">
+          </div>
+
+          <div class="card-box">
+            <span class="details">Password</span>
+            <input style="margin-left:74px" type="password" name="" placeholder="Enter Your Password">
+            
+          </div>
+
+          <div class="card-box">
+            <span class="details">Confirm Password</span>
+            <input style="margin-left:15px"type="pass" name="" placeholder="Confirm Password">
+          </div>
+        </div>
+        
+        <div class="circal-form">
+          <span class="circal-title">Gender</span>
+          <div class="category">
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">Other
+          </div>
+        </div>
+        <div class="circal-form">
+          <form action="/action_page.php">
+            <span class="Image">Image</span>
+            <div class="circal-images">
+              <input type="file" id="myFile" name="filename">
+              </div>
+            </form>
+        </div>
+
+      
+
+        <div class="button">
+          <input type="submit" name="" value="Register">
+        </div>
+
+
+      </form>
+    </div>
+/////////////////////////////////////////////
+Navigation:
+<header>
+  
+    <div class="logo"><h1>FanFair</h1></div>
+    <div class="search-box">
+      <form action="">
+      <input type="text" name="search" id="srch" placeholder="Search">
+      <button type="submit">
+      <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </form>
+  </div>
+  <ul>
+    <li><a href="#" ">Profile</a></li>
+    <li><a href="#">Notifications</a></li>
+    <li><a href="#">Add to Cart</a></li> 
+      <div class="middle">
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Settings
+          </a>
+        
+            
+          
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Login</a></li>
+            <li><a class="dropdown-item" href="#">Sign up</a></li>
+             <li><a class="dropdown-item" href="#">Language</a></li>
+             <li><a class="dropdown-item" href="#">Announcements</a></li>
+             <li><a class="dropdown-item" href="#">Mode</a></li>
+
+
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Log Out</a></li>
+          </ul>
+        </li>
+      </div>
+
+       
+
+
+
+
+
+
+  </ul>
+      
+
+
+
+
+
+    </div>
+
+</header>
+
+header
+{
+	width:100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 99;
+	box-shadow: 0 0 10px #fff;
+	background: rgba(0,0,0,0.5);
+
+}
+i
+{
+	color: #fff;
+	cursor: pointer;
+}
+header .logo
+{
+	flex:1;
+	color: #fff;
+	margin-left: 50px;
+	text-transform: uppercase;
+}
+header .search-box
+{
+	flex:1;
+	position: relative;
+}
+.search-box input
+{
+	width: 100%;
+	height:40px;
+	border:none;
+	outline:none;
+	background: #f2f2f2;
+	border-radius: 30px;
+	color:gray;
+	font-size:16px;
+	text-align: center;
+
+}
+.search-box button
+{
+	cursor: pointer;
+	width:40px;
+	height:40px;
+	border-radius:30px;
+	position: absolute;
+	top:0;
+	right: 0;
+	transform: scale(0.9);
+	background: red;
+	border: none;
+}
+header ul
+{
+	flex: 2;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 26px;
+
+
+}
+header ul li
+{
+	list-style: none;
+}
+header ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 10px 15px;
+}
+header ul li a :hover
+{
+	border-bottom: 2px solid red;
+}
+.nav-link {
+    display: block;
+    padding: -2.5rem 1rem;
+    color:#fff!important;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.middle
+{
+	margin-bottom: 4px;
+
+}
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+
+
+
+

@@ -1,0 +1,284 @@
+<div class="banner">
+		<div class="container">
+			<div class="banner-content">
+				<div class="images">
+					<img src="Images/2.jpg">
+				</div>
+
+					<div class="hover-effect">
+
+						<div class="Icons">
+
+							<div class="icons-inline">
+
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+							<h3>Address</h3>
+							</div>
+							<p>Mada Center 8th floor,379 Hudson<br>St. New York,NY 10018 US</p>
+
+						</div>
+
+						<div class="Icons">
+
+							<div class="icons-inline">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<h3>Lets Talk</h3>
+							</div>
+							<p style="color:#006a4e">+1 800 1236879</p>
+
+						</div>
+
+						<div class="Icons">
+
+							<div class="icons-inline">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							<h3>General Support</h3>
+							</div>
+							<p style="color:#006a4e">contact@example.com</p>
+
+						</div>
+
+
+
+				</div>
+
+				<div class="form-design">
+
+					<h4>Send Us A Message</h4>
+					<table class="first">
+  						<tr>
+    						<th>TELL US YOUR NAME *</th>
+   
+  						</tr>
+  						<tr>
+   					 		<td><input type="text" name="" placeholder="First name"></td>
+    						<td><input type="text" name="" placeholder="Last name"></td>
+  
+  						</tr>
+					</table>
+					<table class="second">
+						<tr>
+    						<th>ENTER YOUR EMAIL *</th>
+   
+  						</tr>
+  						<tr>
+    						<td><input type="text" name="" placeholder="Eg.example@email.com"></td>
+   
+  
+  						</tr>
+  
+					</table>
+					<table class="third">
+						<tr>
+    						<th>ENTER YOUR PHONE NUMBER </th>
+   
+  						</tr>
+  						<tr>
+    						<td><input type="PHONE" name="" placeholder="Eg.+1800 000000"></td>
+   
+  
+  						</tr>
+  						
+
+  
+					</table>
+					<table class="fourth">
+						<tr>
+    						<th>MESSAGE *</th>
+   
+  						</tr>
+  						<tr>
+    						<td><input type="text" name="" placeholder="Write us a message"></td>
+   
+  
+  						</tr>
+  						
+
+  
+					</table>
+					<div class="middle">
+						
+						<button>SEND MESSAGE</button>
+					</div>
+					
+
+
+
+				</div>
+				
+
+
+
+			</div>
+			
+
+
+
+
+		</div>
+		
+
+
+
+
+	</div>
+
+
+	.banner-content
+{
+	display: flex;
+	justify-content:space-between;
+	
+
+}
+table,  td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.images
+{
+	position: absolute;
+}
+.hover-effect
+{    
+	position: relative;
+    margin: auto;
+    width: 50%;
+    left: 180px;
+    top:40px;
+    bottom:0;
+ 	font-family: 'Poppins', sans-serif;
+    color: #fff;
+
+   
+}
+.form-design h4
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.form-design
+{
+	margin-right: 100px;
+}
+table
+{
+	margin-top: 15px;
+	border: 1px solid black;
+}
+.form-design tr input
+{
+	border: none;
+}
+.form-design .first tr td
+{
+	padding: 10px 15px;
+}
+.form-design .second tr td,.third tr td
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 212px;
+}
+.form-design .second tr th
+{
+
+	font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 190px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.form-design .third tr th
+{
+	font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 130px;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.form-design .fourth tr th
+{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 250px;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.form-design .first tr th
+{
+	font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.form-design .fourth tr td
+{
+	padding-top: 10px;
+	padding-bottom: 60px;
+	padding-left: 10px;
+	padding-right: 212px;
+}
+.middle
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	padding: 10px 10px;
+}
+.icons-inline
+{
+	display: flex;
+}
+.icons-inline i
+{
+	margin-right: 20px;
+	padding-top: 3px;
+	font-size: 20px;
+}
+.Icons
+{
+	margin-bottom: 30px;
+}
+.Icons p
+{
+	margin-top: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	color:#B2BEB5; 
+	margin-left: 30px;
+}
+.icons-inline h3
+{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+button
+{
+	padding: 10px 20px;
+	font-family: 'Poppins', sans-serif;
+	background:#006a4e;
+	color: #fff; 
+	border: none;
+	border-radius: 5px;
+}
+.form-design tr input .placeholder
+{
+	padding-left:5px;
+}	
+			
+				
+
+
